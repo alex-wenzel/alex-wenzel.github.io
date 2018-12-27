@@ -1,6 +1,8 @@
 ---
-layout: page
+layout: default
 title: About
+author_profile: true
+author: Alex Wenzel
 permalink: /about/
 ---
 

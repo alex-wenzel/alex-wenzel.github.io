@@ -13,23 +13,35 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Alexander Wenzel
+email: atwenzel@ucsd.edu
+#description: >- # this means to ignore newlines until "baseurl:"
+#  Write an awesome description for your new site here. You can edit this
+#  line in _config.yml. It will appear in your document head meta (for
+#  Google search results) and in your feed.xml site description.
 
 # Build settings
 markdown: kramdown
 #theme: minima
-remote_theme: mmistakes/minimal-mistakes
+#remote_theme: "mmistakes/minimal-mistakes@4.14.1"
+theme: minimal-mistakes-jekyll
 plugins:
-  - jekyll-feed
+        #  - jekyll-feed
+  - jekyll-include-cache
+
+minimal_mistakes_skin: dark
+locale: en
+title_separator: "|"
+name: "Alexander T. Wenzel"
+description: "My site"
+url: "https://alex-wenzel.github.io"
+
+author:
+        name: "Alexander T. Wenzel"
+        avatar: "/assets/images/face.jpg"
+        bio: "Hi"
+        location: "San Diego, California"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
