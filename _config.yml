@@ -24,7 +24,7 @@ email: atwenzel@ucsd.edu
 markdown: kramdown
 #theme: minima
 #remote_theme: "mmistakes/minimal-mistakes@4.14.1"
-theme: minimal-mistakes-jekyll
+#theme: minimal-mistakes-jekyll
 remote_theme: "mmistakes/minimal-mistakes@4.14.1"
 plugins:
         #  - jekyll-feed
