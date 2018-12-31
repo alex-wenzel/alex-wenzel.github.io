@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  
+title: About Me
 author_profile: true
 author: Alex Wenzel
 permalink: /about/
